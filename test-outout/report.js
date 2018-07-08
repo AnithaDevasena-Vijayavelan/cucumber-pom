@@ -1,0 +1,87 @@
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("/Applications/Eclipse/Amirtha/selenium/FreeCRMPOM/src/main/java/com/qa/feature/FreeCrm.feature");
+formatter.feature({
+  "line": 1,
+  "name": "FreeCRM Application test",
+  "description": "",
+  "id": "freecrm-application-test",
+  "keyword": "Feature"
+});
+formatter.scenario({
+  "line": 3,
+  "name": "FreeCrm Homepage testing",
+  "description": "",
+  "id": "freecrm-application-test;freecrm-homepage-testing",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 5,
+  "name": "User launch browser",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 6,
+  "name": "user is on the login page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 7,
+  "name": "user enters Username and Password",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 8,
+  "name": "Validate the title of the home page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 9,
+  "name": "validate the login username",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 10,
+  "name": "click on the new contact",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "homePageStepDefinition.user_launch_browser()"
+});
+formatter.result({
+  "duration": 5509813470,
+  "status": "passed"
+});
+formatter.match({
+  "location": "homePageStepDefinition.user_is_on_the_login_page()"
+});
+formatter.result({
+  "duration": 35279923,
+  "status": "passed"
+});
+formatter.match({
+  "location": "homePageStepDefinition.user_enters_Username_and_Password()"
+});
+formatter.result({
+  "duration": 147218394,
+  "error_message": "org.openqa.selenium.WebDriverException: unknown error: call function result missing \u0027value\u0027\n  (Session info: chrome\u003d66.0.3359.117)\n  (Driver info: chromedriver\u003d2.33.506106 (8a06c39c4582fbfbab6966dbb1c38a9173bfb1a2),platform\u003dMac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.5.3\u0027, revision: \u0027a88d25fe6b\u0027, time: \u00272017-08-29T12:42:44.417Z\u0027\nSystem info: host: \u0027Mariappans-MBP\u0027, ip: \u0027fe80:0:0:0:87d:6a3:f36:3ce6%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.12.6\u0027, java.version: \u00271.8.0_131\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled\u003dfalse, hasTouchScreen\u003dfalse, platform\u003dMAC, acceptSslCerts\u003dtrue, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, platformName\u003dMAC, setWindowRect\u003dtrue, unexpectedAlertBehaviour\u003d, applicationCacheEnabled\u003dfalse, rotatable\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d2.33.506106 (8a06c39c4582fbfbab6966dbb1c38a9173bfb1a2), userDataDir\u003d/var/folders/xx/p17nk81d61jcq4ss2yd_yq4w0000gn/T/.org.chromium.Chromium.C769nz}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, unhandledPromptBehavior\u003d, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d66.0.3359.117, browserConnectionEnabled\u003dfalse, nativeEvents\u003dtrue, locationContextEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue}]\nSession ID: 029a28e2fb8ff0ffdbd493b3bcba8ce7\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:275)\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:99)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\n\tat com.sun.proxy.$Proxy14.sendKeys(Unknown Source)\n\tat com.qa.pages.loginPage.login(loginPage.java:43)\n\tat com.qa.StepDefinition.homePageStepDefinition.user_enters_Username_and_Password(homePageStepDefinition.java:82)\n\tat ✽.Then user enters Username and Password(/Applications/Eclipse/Amirtha/selenium/FreeCRMPOM/src/main/java/com/qa/feature/FreeCrm.feature:7)\n",
+  "status": "failed"
+});
+formatter.match({
+  "location": "homePageStepDefinition.validate_the_title_of_the_home_page()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "homePageStepDefinition.validate_the_login_username()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "homePageStepDefinition.click_on_the_new_contact()"
+});
+formatter.result({
+  "status": "skipped"
+});
+});
